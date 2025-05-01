@@ -47,7 +47,7 @@ function App() {
   }
 
   return (
-    <div className="App lg:mx-auto lg:w-[1200px]">
+    <div className="App 2xl:mx-auto 2xl:w-[1200px]">
         
          {!isAdminPage && <Navbar />}
          {isAdminPage && <AddminNavbar/>}
