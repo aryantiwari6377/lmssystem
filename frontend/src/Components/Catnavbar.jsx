@@ -35,7 +35,7 @@ function Catnavbar() {
   };
 
   return (
-    <div className="mt-20">
+    <div className="mt-16 md:mt-20">
       <nav className="flex rounded-md h-[30px] bg-[rgb(243,246,247)] justify-between w-[80%] ml-[10%] md:w-[50%] md:ml-[25%] md:h-[40px] md:rounded-full text-sm lg:text-lg pr-6">
         <NavLink
           to="/"

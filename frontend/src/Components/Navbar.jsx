@@ -172,6 +172,8 @@ import coursesnav from '../images/coursesnav.PNG'
 import aptinav from '../images/aptinav.PNG'
 import workplace from '../images/workplacenav.PNG'
 import lmslogo from '../images/lmslogo.png'
+import userlogo from '../images/userlogo.png'
+import aryanlogo from '../images/aryanlogo.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
@@ -234,7 +236,7 @@ export default function Navbar({ handleExploreCourses }) {
 
         {/* Navigation Links */}
         <div
-          className={`absolute z-50 md:static top-[70px] left-0 h-screen md:h-auto w-full md:w-auto bg-white md:bg-transparent p-8 md:p-0 flex flex-col md:flex-row gap-6 transform transition-transform duration-300 ease-in-out 
+          className={`absolute z-50 md:static top-[60px] left-0 h-screen md:h-auto w-full md:w-auto bg-white md:bg-transparent p-8 pt-0 md:p-0 flex flex-col md:flex-row gap-6 transform transition-transform duration-300 ease-in-out 
             ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}
         >
           <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 md:items-center">
@@ -310,7 +312,7 @@ export default function Navbar({ handleExploreCourses }) {
             className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden cursor-pointer border-2 border-gray-200 hover:border-green-500 transition duration-200"
             onClick={() => { navigate("/profile") }}
           >
-            <img src={userimg} className="w-full h-full object-cover" alt="User profile" />
+            <img src={userlogo} className="w-full h-full object-cover" alt="User profile" />
           </div>
         </div>
       </nav>

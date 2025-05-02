@@ -159,6 +159,7 @@ const Login = ({ isLoginOpen, toggleLogin, setIsLoginOpen }) => {
       localStorage.setItem('token', token);
       sessionStorage.setItem('token',token);
       toggleLogin();
+      navigate("/");
     } else {
       alert('login failed');
     }

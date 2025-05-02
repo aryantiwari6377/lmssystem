@@ -2,7 +2,7 @@ import React from 'react'
 
 function Loginmessage() {
   return (
-    <div className='mt-24'>
+    <div className='mt-24 h-full'>
       <h2 className='text-3xl font-bold'>Please login first</h2>
     </div>
   )
